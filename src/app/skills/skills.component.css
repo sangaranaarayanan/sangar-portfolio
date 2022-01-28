@@ -1,0 +1,291 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+
+/*col1*/
+.story{
+  color: rgb(80, 195, 248);
+  margin-top: 4%;
+}
+.story2{
+  color: rgb(253, 253, 253);
+
+}
+.tit{
+  text-align: center;
+
+  margin-top: 1%;
+  margin-bottom: 2%;
+
+}
+.content{
+  text-align: justify;
+  justify-content: center;
+  padding: 0% 3%;
+  font-size: 1.5em;
+}
+.imgsk{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%; 
+  height: 18em;
+  border-radius: 10px;
+
+  
+}
+
+#containe{
+  font-family: inherit;
+  margin-top: 5%;
+  padding-top: 2%;
+
+  width: 100% !important;
+  height:100% !important;
+}
+#cont{
+  background-color: none;
+  
+
+
+  padding:30px;
+  border-radius: 10px;
+  box-shadow: 2 20px 25px rgb(0, 0, 0);
+}
+hr.solid {
+ 
+  margin-top: 5%;
+  margin-bottom: 2%;
+  border-top: 2px solid rgb(221, 221, 221);
+}
+
+@keyframes Load {
+  from{
+    width: 0%;
+  }
+}
+@-webkit-keyframes Load{
+  from{
+    width: 0%;
+  }
+}
+@-moz-keyframes Load{
+  from{
+    width: 0%;
+  }
+}@-o-keyframes Load{
+  from{
+    width: 0%;
+  }
+}
+h1{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.box{
+  list-style: none;
+  margin: 0;
+  padding:0;
+  
+  
+}
+.box li h5{
+  font-size: 1.2em;
+  margin: 1% 0%;
+  margin-left: 2%;
+}
+.box li h2{
+  font-size: 1.6em;
+  margin: 2% 0;
+}
+.bar{
+  height: 3%;
+  background-color: 1d1f22;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  margin-left: 2%;
+}
+.bar::before{
+  content: "";
+  background-color: #ff5252;
+  display: inline-block;
+  padding:2px;
+  border-radius: inherit;
+  animation: Load 3s 0s;
+  -webkit-animation: Load 3s 0s;
+  -moz-animation: Load 3s 0s;
+  -o-animation: Load 3s 0s;
+}
+.bars{
+  height: 3%;
+  background-color: 1d1f22;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  margin-left: 2%;
+}
+.bars::before{
+  content: "";
+  background-color: #73f866;
+  display: inline-block;
+  padding:2px;
+  border-radius: inherit;
+  animation: Load 3s 0s;
+  -webkit-animation: Load 3s 0s;
+  -moz-animation: Load 3s 0s;
+  -o-animation: Load 3s 0s;
+}
+
+
+
+.bare{
+  height: 3%;
+  background-color: 1d1f22;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  margin-left: 2%;
+}
+.bare::before{
+  content: "";
+  background-color: #66f8f8;
+  display: inline-block;
+  padding:2px;
+  border-radius: inherit;
+  animation: Load 3s 0s;
+  -webkit-animation: Load 3s 0s;
+  -moz-animation: Load 3s 0s;
+  -o-animation: Load 3s 0s;
+}
+
+
+.barq{
+  height: 3%;
+  background-color: 1d1f22;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  margin-left: 2%;
+}
+.barq::before{
+  content: "";
+  background-color: #ca66f8;
+  display: inline-block;
+  padding:2px;
+  border-radius: inherit;
+  animation: Load 3s 0s;
+  -webkit-animation: Load 3s 0s;
+  -moz-animation: Load 3s 0s;
+  -o-animation: Load 3s 0s;
+}
+
+
+
+
+.bar.bar1::before{
+  width: calc(90% - 10px);
+}
+.bar.bar2::before{
+  width: calc(80% - 10px);
+}
+.bar.bar3::before{
+  width: calc(60% - 10px);
+}
+.bar.bar4::before{
+  width: calc(70% - 10px);
+}
+.bar.bar5::before{
+  width: calc(85% - 10px);
+}
+
+
+
+.bars.bar1::before{
+  width: calc(90% - 10px);
+}
+.bars.bar2::before{
+  width: calc(70% - 10px);
+}
+.bars.bar3::before{
+  width: calc(60% - 10px);
+}
+
+
+.bare.bar1::before{
+  width: calc(80% - 10px);
+}
+.bare.bar2::before{
+  width: calc(85% - 10px);
+}
+.bare.bar3::before{
+  width: calc(70% - 10px);
+}
+
+
+.barq.bar1::before{
+  width: calc(95% - 10px);
+}
+.barq.bar2::before{
+  width: calc(90% - 10px);
+}
+
+@media (min-width: 1772px) and (max-width: 5000px){
+  #containe{
+      margin-top: 3%;
+  }
+
+  hr.solid{
+
+      margin-top:13%;
+  }
+}
+@media (min-width: 730px) and (max-width: 990px){
+  #containe{
+      margin-top: 8%;
+  }
+
+  hr.solid{
+
+      margin-top:13%;
+  }
+}
+@media (min-width: 540px) and (max-width: 730px){
+  #containe{
+      margin-top: 8%;
+  }
+  hr.solid{
+
+      margin-top:11%;
+  }
+
+}
+
+@media (min-width: 400px) and (max-width: 540px){
+  #containe{
+      margin-top: 20%;
+  }
+  hr.solid{
+
+      margin-top:13%;
+  }
+
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  hr.solid{
+
+      margin-top:10%;
+  }
+  #containe{
+      margin-top: 25%;
+  }
+
+}
+@media (min-width: 100px) and (max-width: 300px){
+  #containe{
+      margin-top: 31%;
+  }
+
+  hr.solid{
+
+      margin-top:13%;
+  }
+}
